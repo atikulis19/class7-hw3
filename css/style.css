@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background-color: #0B0B24;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header{
+    width: 100%;
+    
+}
+.container{
+    width: 960px;
+    margin: 20px auto;
+
+}
+
+.item{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    color: white;
+
+}
+
+.socialmedia ul{
+    list-style: none;
+    
+}
+
+.socialmedia ul li{
+    padding: 8px 0;
+}
+
+.socialmedia ul li a{
+    color: white;
+    transition: 0.5s;
+}
+.socialmedia ul li a:hover{
+    color: #96E022;
+    transform: scale(2);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.nav1{
+    margin-right: 10px;
+}
+
+.nav1 ul{
+    display: flex;
+    
+}
+
+.nav1 ul li{
+    list-style: none;
+    cursor: pointer;
+    padding: 0px 10px;
+    transition: 0.5s;
+    border-right: 2px solid #96E022;
+}
+.nav1 ul li:nth-child(3){
+    border: none;
+}
+.nav1 ul li:nth-child(1) a{
+    color: #96E022;
+ 
+}
+.nav1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.8s;
+    transform: scaleX(0);
+    transition: 0.5s;
+}
+
+.nav1 ul li:hover a{
+    color: #96E022;
+    transform: scaleY(5);
+}
+
+.logo{
+    width: 50px;
+}
+
+.logo:hover{
+    opacity: 80%;
+}
+
+.nav2{
+    margin-left: 10px;
+}
+.nav2 ul{
+    display: flex;
+}
+
+.nav2 ul li{
+    list-style: none;
+    cursor: pointer;
+    padding: 0px 10px;
+    transition: 0.5s;
+    border-right: 2px solid #96E022;
+}
+
+.menubar{
+    position: relative;
+
+}
+
+.menubar ul{
+    display: block;
+    position: absolute;
+    padding: 5px 0;
+}
+
+
+.nav2 ul li{
+   position: relative;
+}
+.nav2 ul li:nth-child(3){
+    border: none;
+ }
+.nav2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.8s;
+}
+
+.nav2 ul li:hover a{
+    color: #96E022;
+    
+}
+
+/* menu */
+
+.nav2 ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    display: initial;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    transform: scale(0) rotate(45deg);
+}
+
+.nav2 ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1) rotate(0deg);
+}
+
+.nav2 ul li ul li{
+    border: none;
+    /* padding-top: 10px;
+    padding-right: 0;
+    padding-left: 0; */
+    margin-top: 20px;
+    
+}
+
+.nav2 ul li ul li a{
+    padding: 3px 5px;
+    border: 1px solid #96E022;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.8s;
+}
+
+.nav2 ul li:hover ul li a{
+    color: white;
+}
+
+.nav2 ul li ul li a:hover{
+    background-color: #96E022;
+    color: #0B0B24;
+}
+
+
+
+
+
+.email a{
+  color: white;
+  text-decoration: none;
+}
+
+.email .fa-solid{
+    color: #96E022;
+    text-decoration: none;
+    margin-right: 5px;
+  }
